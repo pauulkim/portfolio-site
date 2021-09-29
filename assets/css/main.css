@@ -2416,15 +2416,11 @@ input, select, textarea {
 
 /* Icons */
 
-  ul.icons li a {
-    text-decoration: none !important;
-  }
-
 	ul.icons {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
-    font-size: 20px;
+    font-size: 30px;
 	}
 
 		ul.icons li {
