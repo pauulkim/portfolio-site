@@ -2225,9 +2225,9 @@ input, select, textarea {
 		padding-left: 1em;
 	}
 
-		ul li {
+		/* ul li {
 			padding-left: 0.5em;
-		}
+		} */
 
 		ul.alt {
 			list-style: none;
@@ -2370,14 +2370,14 @@ input, select, textarea {
 
 		}
 
-/* Feature Icons */
+/* Skills */
 
 	ul.feature-icons {
 		list-style: none;
 		padding-left: 0;
 	}
 
-		ul.feature-icons li {
+		/* ul.feature-icons li {
 			text-decoration: none;
 			display: inline-block;
 			margin: 0 0 1.6875em 0;
@@ -2385,9 +2385,9 @@ input, select, textarea {
 			position: relative;
 			vertical-align: top;
 			width: 48%;
-		}
+		} */
 
-			ul.feature-icons li:before {
+			/* ul.feature-icons li:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				display: inline-block;
@@ -2400,19 +2400,14 @@ input, select, textarea {
 				font-weight: 400;
 			}
 
-			ul.feature-icons li:before {
-				background: #92A8D1;
-				border-radius: 100%;
-				color: #ffffff;
+			ul.feature-icons li i {
 				display: block;
-				height: 2.5em;
 				left: 0;
-				line-height: 2.5em;
 				position: absolute;
 				text-align: center;
 				top: 0;
-				width: 2.5em;
-			}
+        font-size: 100px;
+			} */
 
 /* Icons */
 
