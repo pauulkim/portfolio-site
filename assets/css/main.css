@@ -110,7 +110,6 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #e4e4e4;
 		color: inherit;
 		text-decoration: none;
 	}
@@ -2417,10 +2416,15 @@ input, select, textarea {
 
 /* Icons */
 
+  ul.icons li a {
+    text-decoration: none !important;
+  }
+
 	ul.icons {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+    font-size: 20px;
 	}
 
 		ul.icons li {
@@ -2789,7 +2793,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px white;
 					display: block;
 					padding: 0;
 				}
