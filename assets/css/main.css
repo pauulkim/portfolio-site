@@ -2377,15 +2377,28 @@ input, select, textarea {
 		padding-left: 0;
 	}
 
-		/* ul.feature-icons li {
+		ul.feature-icons li {
 			text-decoration: none;
 			display: inline-block;
-			margin: 0 0 1.6875em 0;
-			padding: 0.35em 0 0 3.5em;
 			position: relative;
 			vertical-align: top;
 			width: 48%;
-		} */
+		}
+
+    div.skills {
+      display: flex;
+      align-items: center;
+    }
+
+    div.skills i {
+      font-size: 80px;
+    }
+
+    div.skills p {
+      font-size: 17px;
+      margin: 0;
+      padding-left: 45px;
+    }
 
 			/* ul.feature-icons li:before {
 				-moz-osx-font-smoothing: grayscale;
@@ -2398,9 +2411,9 @@ input, select, textarea {
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 400;
-			}
+			} */
 
-			ul.feature-icons li i {
+			/* ul.feature-icons li i {
 				display: block;
 				left: 0;
 				position: absolute;
