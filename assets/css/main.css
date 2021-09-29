@@ -2388,10 +2388,11 @@ input, select, textarea {
     div.skills {
       display: flex;
       align-items: center;
+      padding-bottom: 30px;
     }
 
     div.skills i {
-      font-size: 80px;
+      font-size: 70px;
     }
 
     div.skills p {
