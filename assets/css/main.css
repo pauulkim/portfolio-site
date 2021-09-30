@@ -2659,7 +2659,7 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
-/* Features */
+/* projects */
 
 	.features article {
 		border-top: solid 3px #f4f4f4;
@@ -2690,10 +2690,22 @@ input, select, textarea {
 			vertical-align: middle;
 			width: 50%;
 		}
-
-			.features article .inner > :last-child {
-				margin-bottom: 0;
-			}
+    
+    .features article .inner > :last-child {
+      margin-bottom: 0;
+    }
+    
+    .features article .inner p {
+      margin: 0;
+    }
+  
+  .project-links {
+    padding-top: 15px;
+  }
+  
+  .project-links a {
+    text-decoration: underline;
+  }
 
 /* Header */
 
