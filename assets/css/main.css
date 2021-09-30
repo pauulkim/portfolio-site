@@ -3338,3 +3338,16 @@ input, select, textarea {
 	}
 
 /* contact */
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  padding-bottom: 25px;
+  font-size: 20px;
+}
+
+.contact-info i {
+  font-size: 30px;
+  padding-right: 30px;
+}
